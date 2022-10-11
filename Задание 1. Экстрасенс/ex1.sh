@@ -21,7 +21,7 @@ while [[ true ]]; do
 
 	if (( "${input}" == rnd )); then
 		right=$((right+1))
-		random_list+="${RED}${rnd}${RESET}"
+		random_list+="${GREEN}${rnd}${RESET}"
 		echo "${WIN_MESSAGE}"
 	else
 		wrong=$((wrong+1))
